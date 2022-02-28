@@ -24,7 +24,7 @@ def graphCharFreqs(wp):
     for c in wp:
         if ftable.get(c) != None:
             ftable[c] += 1
-        charCount += 1
+            charCount += 1
 
 
     for key in ftable.keys():
